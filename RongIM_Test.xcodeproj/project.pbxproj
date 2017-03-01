@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		630B57361E66A346001305AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 630B57351E66A346001305AD /* main.m */; };
+		630B57391E66A346001305AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 630B57381E66A346001305AD /* AppDelegate.m */; };
+		630B573C1E66A346001305AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630B573B1E66A346001305AD /* ViewController.m */; };
+		630B573F1E66A346001305AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630B573D1E66A346001305AD /* Main.storyboard */; };
+		630B57411E66A346001305AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630B57401E66A346001305AD /* Assets.xcassets */; };
+		630B57441E66A346001305AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630B57421E66A346001305AD /* LaunchScreen.storyboard */; };
+		630B574F1E66A347001305AD /* RongIM_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 630B574E1E66A347001305AD /* RongIM_TestTests.m */; };
+		630B575A1E66A347001305AD /* RongIM_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 630B57591E66A347001305AD /* RongIM_TestUITests.m */; };
+		630B576A1E66A38D001305AD /* RongIM_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 630B57691E66A38D001305AD /* RongIM_Test.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		630B574B1E66A347001305AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 630B57291E66A346001305AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 630B57301E66A346001305AD;
+			remoteInfo = RongIM_Test;
+		};
+		630B57561E66A347001305AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 630B57291E66A346001305AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 630B57301E66A346001305AD;
+			remoteInfo = RongIM_Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		630B57311E66A346001305AD /* RongIM_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RongIM_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		630B57351E66A346001305AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		630B57371E66A346001305AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		630B57381E66A346001305AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		630B573A1E66A346001305AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		630B573B1E66A346001305AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		630B573E1E66A346001305AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		630B57401E66A346001305AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		630B57431E66A346001305AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		630B57451E66A346001305AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		630B574A1E66A347001305AD /* RongIM_TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RongIM_TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		630B574E1E66A347001305AD /* RongIM_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RongIM_TestTests.m; sourceTree = "<group>"; };
+		630B57501E66A347001305AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		630B57551E66A347001305AD /* RongIM_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RongIM_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		630B57591E66A347001305AD /* RongIM_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RongIM_TestUITests.m; sourceTree = "<group>"; };
+		630B575B1E66A347001305AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		630B57681E66A38D001305AD /* RongIM_Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RongIM_Test.h; sourceTree = "<group>"; };
+		630B57691E66A38D001305AD /* RongIM_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RongIM_Test.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		630B572E1E66A346001305AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630B57471E66A347001305AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630B57521E66A347001305AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		630B57281E66A346001305AD = {
+			isa = PBXGroup;
+			children = (
+				630B57331E66A346001305AD /* RongIM_Test */,
+				630B574D1E66A347001305AD /* RongIM_TestTests */,
+				630B57581E66A347001305AD /* RongIM_TestUITests */,
+				630B57321E66A346001305AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		630B57321E66A346001305AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				630B57311E66A346001305AD /* RongIM_Test.app */,
+				630B574A1E66A347001305AD /* RongIM_TestTests.xctest */,
+				630B57551E66A347001305AD /* RongIM_TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		630B57331E66A346001305AD /* RongIM_Test */ = {
+			isa = PBXGroup;
+			children = (
+				630B57671E66A378001305AD /* TRZXRongIM */,
+				630B57371E66A346001305AD /* AppDelegate.h */,
+				630B57381E66A346001305AD /* AppDelegate.m */,
+				630B573A1E66A346001305AD /* ViewController.h */,
+				630B573B1E66A346001305AD /* ViewController.m */,
+				630B573D1E66A346001305AD /* Main.storyboard */,
+				630B57401E66A346001305AD /* Assets.xcassets */,
+				630B57421E66A346001305AD /* LaunchScreen.storyboard */,
+				630B57451E66A346001305AD /* Info.plist */,
+				630B57341E66A346001305AD /* Supporting Files */,
+			);
+			path = RongIM_Test;
+			sourceTree = "<group>";
+		};
+		630B57341E66A346001305AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				630B57351E66A346001305AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		630B574D1E66A347001305AD /* RongIM_TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				630B574E1E66A347001305AD /* RongIM_TestTests.m */,
+				630B57501E66A347001305AD /* Info.plist */,
+			);
+			path = RongIM_TestTests;
+			sourceTree = "<group>";
+		};
+		630B57581E66A347001305AD /* RongIM_TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				630B57591E66A347001305AD /* RongIM_TestUITests.m */,
+				630B575B1E66A347001305AD /* Info.plist */,
+			);
+			path = RongIM_TestUITests;
+			sourceTree = "<group>";
+		};
+		630B57671E66A378001305AD /* TRZXRongIM */ = {
+			isa = PBXGroup;
+			children = (
+				630B57681E66A38D001305AD /* RongIM_Test.h */,
+				630B57691E66A38D001305AD /* RongIM_Test.m */,
+			);
+			path = TRZXRongIM;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		630B57301E66A346001305AD /* RongIM_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630B575E1E66A347001305AD /* Build configuration list for PBXNativeTarget "RongIM_Test" */;
+			buildPhases = (
+				630B572D1E66A346001305AD /* Sources */,
+				630B572E1E66A346001305AD /* Frameworks */,
+				630B572F1E66A346001305AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RongIM_Test;
+			productName = RongIM_Test;
+			productReference = 630B57311E66A346001305AD /* RongIM_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		630B57491E66A347001305AD /* RongIM_TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630B57611E66A347001305AD /* Build configuration list for PBXNativeTarget "RongIM_TestTests" */;
+			buildPhases = (
+				630B57461E66A347001305AD /* Sources */,
+				630B57471E66A347001305AD /* Frameworks */,
+				630B57481E66A347001305AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				630B574C1E66A347001305AD /* PBXTargetDependency */,
+			);
+			name = RongIM_TestTests;
+			productName = RongIM_TestTests;
+			productReference = 630B574A1E66A347001305AD /* RongIM_TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		630B57541E66A347001305AD /* RongIM_TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630B57641E66A347001305AD /* Build configuration list for PBXNativeTarget "RongIM_TestUITests" */;
+			buildPhases = (
+				630B57511E66A347001305AD /* Sources */,
+				630B57521E66A347001305AD /* Frameworks */,
+				630B57531E66A347001305AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				630B57571E66A347001305AD /* PBXTargetDependency */,
+			);
+			name = RongIM_TestUITests;
+			productName = RongIM_TestUITests;
+			productReference = 630B57551E66A347001305AD /* RongIM_TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		630B57291E66A346001305AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "移动微";
+				TargetAttributes = {
+					630B57301E66A346001305AD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					630B57491E66A347001305AD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 630B57301E66A346001305AD;
+					};
+					630B57541E66A347001305AD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 630B57301E66A346001305AD;
+					};
+				};
+			};
+			buildConfigurationList = 630B572C1E66A346001305AD /* Build configuration list for PBXProject "RongIM_Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 630B57281E66A346001305AD;
+			productRefGroup = 630B57321E66A346001305AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				630B57301E66A346001305AD /* RongIM_Test */,
+				630B57491E66A347001305AD /* RongIM_TestTests */,
+				630B57541E66A347001305AD /* RongIM_TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		630B572F1E66A346001305AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630B57441E66A346001305AD /* LaunchScreen.storyboard in Resources */,
+				630B57411E66A346001305AD /* Assets.xcassets in Resources */,
+				630B573F1E66A346001305AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630B57481E66A347001305AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630B57531E66A347001305AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		630B572D1E66A346001305AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630B573C1E66A346001305AD /* ViewController.m in Sources */,
+				630B57391E66A346001305AD /* AppDelegate.m in Sources */,
+				630B57361E66A346001305AD /* main.m in Sources */,
+				630B576A1E66A38D001305AD /* RongIM_Test.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630B57461E66A347001305AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630B574F1E66A347001305AD /* RongIM_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630B57511E66A347001305AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630B575A1E66A347001305AD /* RongIM_TestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		630B574C1E66A347001305AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 630B57301E66A346001305AD /* RongIM_Test */;
+			targetProxy = 630B574B1E66A347001305AD /* PBXContainerItemProxy */;
+		};
+		630B57571E66A347001305AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 630B57301E66A346001305AD /* RongIM_Test */;
+			targetProxy = 630B57561E66A347001305AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		630B573D1E66A346001305AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				630B573E1E66A346001305AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		630B57421E66A346001305AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				630B57431E66A346001305AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		630B575C1E66A347001305AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		630B575D1E66A347001305AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		630B575F1E66A347001305AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RongIM_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dujianhai.RongIM-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		630B57601E66A347001305AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RongIM_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dujianhai.RongIM-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		630B57621E66A347001305AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RongIM_TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dujianhai.RongIM-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RongIM_Test.app/RongIM_Test";
+			};
+			name = Debug;
+		};
+		630B57631E66A347001305AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RongIM_TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dujianhai.RongIM-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RongIM_Test.app/RongIM_Test";
+			};
+			name = Release;
+		};
+		630B57651E66A347001305AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RongIM_TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dujianhai.RongIM-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RongIM_Test;
+			};
+			name = Debug;
+		};
+		630B57661E66A347001305AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RongIM_TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dujianhai.RongIM-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RongIM_Test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		630B572C1E66A346001305AD /* Build configuration list for PBXProject "RongIM_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630B575C1E66A347001305AD /* Debug */,
+				630B575D1E66A347001305AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		630B575E1E66A347001305AD /* Build configuration list for PBXNativeTarget "RongIM_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630B575F1E66A347001305AD /* Debug */,
+				630B57601E66A347001305AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		630B57611E66A347001305AD /* Build configuration list for PBXNativeTarget "RongIM_TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630B57621E66A347001305AD /* Debug */,
+				630B57631E66A347001305AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		630B57641E66A347001305AD /* Build configuration list for PBXNativeTarget "RongIM_TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630B57651E66A347001305AD /* Debug */,
+				630B57661E66A347001305AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 630B57291E66A346001305AD /* Project object */;
+}
