@@ -9,4 +9,17 @@ Pod::Spec.new do |s|
     s.source       = { :git => "https://github.com/382780396/RongIM_Test.git", :tag => s.version }
     s.source_files  = "RongIM_Test/TRZXRongIM/*.{h,m}"
     s.requires_arc = true
+    s.dependency "ReactiveCocoa"
+    s.dependency "TRZXDIYRefresh"
+    s.dependency "MJRefresh"
+    s.dependency "MJExtension"
+    s.dependency "Masonry"
+    s.dependency "SDWebImage"
+    s.dependency "RongCloudIM"
+    s.dependency "TRZXNetwork"
+    s.dependency "TRZXKit"
+    s.dependency "AMap3DMap"
+    s.dependency "AMapSearch"
+    s.dependency "AMapLocation"
+    s.dependency "TRZXKit"
 end
